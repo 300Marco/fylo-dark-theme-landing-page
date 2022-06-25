@@ -41,12 +41,14 @@ body {
 header,
 main .container {
     /* background-color: red; */
+    border: 1px solid rgb(141, 5, 5);
     max-width: 144.0rem;
     margin: 0 auto;
     padding: 67px 80px;
     width: 100%;
 }
 
+/* ########## HEADER ########## */
 header {
     align-items: center;
     display: flex;
@@ -59,6 +61,7 @@ header {
 
 .navigation-menu nav ul li a {
     cursor: pointer;
+    color: var(--white);
     margin-right: 5.5rem;
 }
 
@@ -69,3 +72,6 @@ header {
 .navigation-menu nav ul li:nth-child(3) a {
     margin-right: 0;
 }
+
+/* ########## MAIN ########## */
+/* ########## CONTAINER ########## */

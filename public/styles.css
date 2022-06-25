@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,400&family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -30,7 +30,11 @@ html {
 }
 
 body {
-    background-color: var(--dark-blue-main);
+    background-color: var(--dark-blue-intro-email);
+    background-image: url('./assets/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center 800px;
+    background-size: contain;
     color: var(--white);
 
     font-family:'Raleway', sans-serif;
@@ -50,8 +54,8 @@ main .container {
 
 /* ########## HEADER ########## */
 header {
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -75,3 +79,52 @@ header {
 
 /* ########## MAIN ########## */
 /* ########## CONTAINER ########## */
+main .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.introdution {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introdution strong {
+    font-size: 4.0rem;
+    line-height: 5.5rem;
+    margin-top: 4.5rem;
+    padding: 0 30.0rem;
+    text-align: center;
+}
+
+.introdution p {
+    font-size: 2.0rem;
+    font-weight: 300;
+    margin-top: 4.0rem;
+    line-height: 3.0rem;
+    letter-spacing: .02rem;
+    padding: 0 34.5rem;
+}
+
+.introdution p span {
+    display: block;
+    text-align: center;
+}
+
+.introdution .button {
+    background-color: hsl(176, 62%, 49%);
+    border-radius: 30px;
+    color: var(--white);
+    font-weight: 700;
+    margin-top: 4.5rem;
+    padding: 20px 95px;
+    transition: 300ms;
+}
+
+.introdution .button:hover {
+    background-color: var(--cyan);
+}

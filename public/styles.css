@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    /* Background */
+    --dark-blue-main:  hsl(218, 28%, 13%);
+    --dark-blue-intro-email: hsl(217, 28%, 15%);
+    --dark-blue-footer:  hsl(216, 53%, 9%);
+    --dark-blue-testimonials:  hsl(219, 30%, 18%);
+
+    /* Other colors */
+    --blue: hsl(198, 60%, 50%);
+    --cyan: hsl(176, 68%, 64%);
+    --light-Red: hsl(0, 100%, 63%);
+
+    /* Default */
+    --white: hsl(0, 0%, 100%);
+}
+
+html {
+    font-size: 62.5%; /* 10px */
+
+}
+
+body {
+    background-color: var(--dark-blue-main);
+    color: var(--white);
+
+    font-family:'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+header,
+main .container {
+    /* background-color: red; */
+    max-width: 144.0rem;
+    margin: 0 auto;
+    padding: 67px 80px;
+    width: 100%;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-menu nav ul {
+    display: flex;
+}
+
+.navigation-menu nav ul li a {
+    cursor: pointer;
+    margin-right: 5.5rem;
+}
+
+.navigation-menu nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.navigation-menu nav ul li:nth-child(3) a {
+    margin-right: 0;
+}

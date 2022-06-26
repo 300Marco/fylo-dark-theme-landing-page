@@ -35,6 +35,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+main {
+    margin-bottom: 12.0rem;
+}
+
 header,
 main section:nth-child(1) {
     /* border: 1px solid red; */
@@ -119,7 +123,7 @@ main section:nth-child(1) {
     width: 60rem;
 }
 
-.introduction .button {
+.button {
     background-color: var(--blue);
     background: linear-gradient(266deg, rgba(51,158,204,1) 0%, rgba(0,212,255,1) 100%);
     border-radius: 40px;
@@ -129,7 +133,7 @@ main section:nth-child(1) {
     transition: 300ms;
 }
 
-.introduction .button:hover {
+.button:hover {
     background: var(--cyan);
     background: linear-gradient(266deg, rgba(0,212,255,1) 0%, rgba(51,158,204,1) 100%);
 }
@@ -360,3 +364,68 @@ main section:nth-child(1) {
 .comments .profile .profile-info span {
     font-size: 1.2rem;
 }
+
+/* ########## FOOTER */
+/* ########## COMMENTS */
+.email {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email .box-email {
+    background-color: var(--dark-blue-intro-email);
+    border-radius: 8px;
+    /* border: 1px solid var(--dark-blue-main); */
+    max-width: 90.0rem;
+    padding: 4.0rem 1.0rem;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.email .box-email .info-email strong {
+    display: block;
+    font-size: 3.0rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2.5rem;
+}
+
+.email .box-email .info-email p {
+    font-size: 1.4rem;
+    /* letter-spacing: 0.1rem; */
+    line-height: 2.0rem;
+    margin-bottom: 4rem;
+    padding: 0 12rem;
+}
+
+.email .box-email .send-email form input {
+    border: none;
+    border-radius: 30px;
+    padding: 1.6rem 4.0rem;
+    width: 48.0rem;
+}
+
+.email .box-email .send-email form input::placeholder{
+    color: #b4b4b4;
+}
+
+.email .box-email .send-email form input:focus {
+    border: 1px solid var(--blue);
+    outline: none;
+    transition: 300ms;
+}
+
+.email .box-email .send-email form button {
+    background-color: var(--blue);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    /* color: var(--white); */
+    /* font-weight: 700; */
+    margin-left: 2.8rem;
+    padding: 1.6rem 3.5rem;
+}
+

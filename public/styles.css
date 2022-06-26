@@ -37,8 +37,8 @@ body {
 
 header,
 main section:nth-child(1) {
+    /* border: 1px solid red; */
     background-color: var(--dark-blue-intro-email);
-    border: 1px solid red;
 
     /* background-image: url('./assets/bg-curvy-desktop.svg');
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ main section:nth-child(1) {
 
 .header-box,
 .introduction {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0 auto;
     max-width: 144.0rem;
 }
@@ -59,7 +59,7 @@ main section:nth-child(1) {
 
 /* ########## HEADER ########## */
 .header-box {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 7.1rem 7.9rem;
     
     display: flex;
@@ -74,10 +74,12 @@ main section:nth-child(1) {
 .navigation-menu nav ul li a {
     color: var(--white);
     margin-right: 6.0rem;
+    letter-spacing: 0.04rem;
 }
 
 .navigation-menu nav ul li a:hover {
     font-weight: 700;
+    letter-spacing: 0;
     text-decoration: underline;
 }
 

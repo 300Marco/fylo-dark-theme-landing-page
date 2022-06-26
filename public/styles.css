@@ -80,7 +80,7 @@ main section:nth-child(1) {
 .navigation-menu nav ul li a:hover {
     font-weight: 700;
     letter-spacing: 0;
-    text-decoration: underline;
+    border-bottom: 1px solid var(--white);
 }
 
 .navigation-menu nav ul li:nth-child(3) a {
@@ -151,7 +151,7 @@ main section:nth-child(1) {
     justify-content: center;
 }
 
-.cards {
+.services .cards {
     /* border: 1px solid green; */
     max-width: 144.0rem;
     /* padding: 3.5rem; */
@@ -163,7 +163,7 @@ main section:nth-child(1) {
     gap: 8.0rem;
 }
 
-.card {
+.services .card {
     /* border: 1px solid yellow; */
     padding: 2.0rem 0;
     width: 45.0rem;
@@ -174,20 +174,20 @@ main section:nth-child(1) {
     justify-content: center;
 }
 
-.card img {
+.services .card img {
     margin-bottom: 3.2rem;
     /* width: 8.5rem; */
     height: 8.0rem;
 } 
 
-.card span {
+.services .card span {
     font-size: 1.8rem;
     font-weight: 700;
     letter-spacing: .1rem;
     margin-bottom: 1.2rem;
 }
 
-.card p {
+.services .card p {
     font-size: 1.4rem;
     letter-spacing: .05rem;
     line-height: 2.0rem;
@@ -198,6 +198,8 @@ main section:nth-child(1) {
 /* ########## PRODUCTIVE */
 .productive {
     /* border: 1px solid red; */
+    margin-bottom: 8rem;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,4 +281,82 @@ main section:nth-child(1) {
     background-color: var(--white);
 }
 
+/* ########## COMMENTS */
+.comments {
+    /* border: 1px solid red; */
+    padding: 8rem 0;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comments .cards {
+    /* border: 1px solid blue; */
+    max-width: 144.0rem;
+    padding: 0 12rem;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 3rem;
+}
+
+.comments .card {
+    background-color: var(--dark-blue-testimonials);
+    border-radius: 5px;
+    box-shadow: 8px 6px 8px 2px #28364d30;
+    padding: 3rem 3.0rem;
+    position: relative;
+    width: 100%;
+}
+
+.comments .card .quotes {
+    position: absolute;
+    top: -35px;
+    left: -10px;
+    z-index: -1;
+}
+
+.comments .card div p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2.5rem;
+}
+
+.comments .profile {
+    display: flex;
+    align-items: start;
+}
+
+.comments .profile .profile-avatar {
+    /* border: 1px solid red; */
+    width: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comments .profile .profile-avatar img {
+    /* border: 1px solid yellow; */
+
+    border-radius: 50%;
+    width: 100%;
+}
+
+.comments .profile .profile-info {
+    margin-top: 2px;
+    margin-left: 12px;
+}
+
+.comments .profile .profile-info strong {
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.comments .profile .profile-info span {
+    font-size: 1.2rem;
+}

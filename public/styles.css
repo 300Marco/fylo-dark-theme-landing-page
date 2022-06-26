@@ -16,8 +16,8 @@
     --dark-blue-testimonials:  hsl(219, 30%, 18%);
 
     /* Other colors */
-    --blue: hsl(198, 60%, 50%);
-    --cyan: hsl(176, 68%, 64%);
+    --blue: #339ecc;
+    --cyan: #65e2d9;
     --light-Red: hsl(0, 100%, 63%);
 
     /* Default */
@@ -100,16 +100,42 @@ main section:nth-child(1) {
 .introduction strong {
     font-size: 4.0rem;
     line-height: 5.6rem;
-    padding: 0 38.0rem 3.8rem;
+    margin-bottom: 3.8rem;
+    /* padding: 0 38.0rem 3.8rem; */
     text-align: center;
+    width: 80rem;
 }
 
 .introduction p {
     font-weight: 400;
     font-size: 2.0rem;
     line-height: 2.8rem;
-    padding: 0 42.8rem;
+    /* padding: 0 42.8rem 3.5rem; */
+    letter-spacing: 0.02rem;
+    margin-bottom: 3.8rem;
     text-align: center;
+    width: 60rem;
 }
 
+.introduction .button {
+    background-color: var(--blue);
+    background: linear-gradient(266deg, rgba(51,158,204,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 40px;
+    color: var(--white);
+    font-weight: 700;
+    padding: 1.8rem 9.6rem;
+    transition: 300ms;
+}
 
+.introduction .button:hover {
+    background: var(--cyan);
+    background: linear-gradient(266deg, rgba(0,212,255,1) 0%, rgba(51,158,204,1) 100%);
+}
+
+main section:nth-child(1) {
+    padding-bottom: 15.0rem;
+    background-image: url('./assets/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center 650px;
+    background-size: 100% 40%;
+}

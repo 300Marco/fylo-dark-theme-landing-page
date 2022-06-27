@@ -35,6 +35,18 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.sr-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 header,
 section {
     /* border: 1px solid yellow; */
@@ -45,13 +57,13 @@ section {
     justify-content: center;
 }
 
-header {
+/* header { */
     /* border: 1px solid green; */
     
     /* display: flex;
     align-items: center;
     justify-content: center; */
-}
+/* } */
 
 header,
 main section:nth-child(1) {
@@ -64,12 +76,12 @@ main section:nth-child(1) {
     background-size: cover; */
 }
 
-.header-box,
+/* .header-box,
 .introduction {
-    /* border: 1px solid green; */
-    /* margin: 0 auto; */
-    /* max-width: 144.0rem; */
-}
+    border: 1px solid green;
+    margin: 0 auto;
+    max-width: 144.0rem;
+} */
 
 .introduction,
 .services,

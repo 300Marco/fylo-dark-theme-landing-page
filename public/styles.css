@@ -35,11 +35,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-main {
-    /* border: 1px solid red; */
-    margin-bottom: 28.0rem;
-}
-
 header,
 main section:nth-child(1) {
     /* border: 1px solid red; */
@@ -55,6 +50,15 @@ main section:nth-child(1) {
 .introduction {
     /* border: 1px solid green; */
     margin: 0 auto;
+    max-width: 144.0rem;
+}
+
+.introduction,
+.services,
+.productive,
+.comments {
+    border: 1px solid red;
+
     max-width: 144.0rem;
 }
 
@@ -94,7 +98,21 @@ main section:nth-child(1) {
 
 /* ########## MAIN ########## */
 /* ########## INTRODUCTION */
-.introduction {    
+main {
+    /* border: 1px solid red; */
+    margin-bottom: 28.0rem;
+}
+
+section {
+    border: 1px solid yellow;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -149,16 +167,15 @@ main section:nth-child(1) {
 
 /* ########## SERVICES */
 .services {
-    /* border: 1px solid red; */
     margin-bottom: 8rem;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .services .cards {
     /* border: 1px solid green; */
-    max-width: 144.0rem;
+    /* max-width: 144.0rem; */
     /* padding: 3.5rem; */
     /* width: 100%; */
     
@@ -205,14 +222,14 @@ main section:nth-child(1) {
     /* border: 1px solid red; */
     margin-bottom: 8rem;
 
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .box-productive {
     /* border: 1px solid blue; */
-    max-width: 144.0rem;
+    /* max-width: 144.0rem; */
     padding: 0 10rem;
 
     display: flex;
@@ -295,14 +312,14 @@ main section:nth-child(1) {
     /* border: 1px solid red; */
     padding: 8rem 0;
 
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .comments .cards {
     /* border: 1px solid blue; */
-    max-width: 144.0rem;
+    /* max-width: 144.0rem; */
     padding: 0 12rem;
     
     display: grid;
@@ -458,14 +475,15 @@ footer {
 
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
 footer .footer {
-    /* border: 1px solid green; */
+    border: 1px solid green;
     padding: 20rem 0 15rem 0;
-    max-width: 120.0rem;
     width: 100%;
+    max-width: 120.0rem;
 }
 
 /* footer .footer .footer-logo {

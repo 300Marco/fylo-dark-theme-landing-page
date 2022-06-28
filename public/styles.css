@@ -876,3 +876,29 @@ footer .footer .footer-info .social-media img {
         padding: 0 1rem;
     }
 }
+
+/* ########## DEV ########## */
+.dev {
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 0 2rem 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+}
+
+.dev span {
+    margin-right: 2rem;
+}
+
+.dev span:nth-child(2) {
+    margin: 0;
+}
+
+.dev span a { 
+    color: var(--cyan);
+    font-weight: 700;
+    cursor: pointer;
+}

@@ -79,7 +79,8 @@ main section:nth-child(1) {
 /* ########## HEADER ########## */
 .header-box {
     max-width: 144.0rem;
-    padding: 7.1rem 7.9rem;
+    /* padding: 7.1rem 7.9rem; */
+    padding: 7.1rem 7.9rem 1rem;
     width: 100%;
     
     display: flex;

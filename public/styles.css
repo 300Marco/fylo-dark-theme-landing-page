@@ -47,6 +47,14 @@ body {
     border-width: 0;
 }
 
+header {
+    z-index: 1;
+
+    position: fixed; 
+    left: 0;
+    top: 0;
+}
+
 header,
 section {
     /* border: 1px solid yellow; */
@@ -98,9 +106,10 @@ main section:nth-child(1) {
 /* ########## HEADER ########## */
 .header-box {
     /* border: 1px solid blue; */
-    width: 100%;
+    /* background-color: var(--dark-blue-intro-email); */
     max-width: 144.0rem;
     padding: 7.1rem 7.9rem;
+    width: 100%;
     
     display: flex;
     align-items: center;
@@ -141,6 +150,9 @@ main {
 }
 
 .introduction {
+    /* border: 1px solid red; */
+    /* margin: 19.8rem 0 14.0rem; */
+    margin-top: 19.8rem;
     margin-bottom: 14.0rem;
 
     display: flex;
@@ -191,7 +203,7 @@ main section:nth-child(1) {
     /* padding-bottom: 15.0rem; */
     background-image: url('./assets/bg-curvy-desktop.svg');
     background-repeat: no-repeat;
-    background-position: center 650px;
+    background-position: center 750px;
     background-size: 100% 40%;
 }
 
@@ -610,7 +622,7 @@ footer .footer .footer-info .social-media img {
 
 @media screen and (max-width: 1060px) {
     main section:nth-child(1) {
-        background-position: center 570px;
+        background-position: center 680px;
     }
     
     /* body {
@@ -700,7 +712,7 @@ footer .footer .footer-info .social-media img {
 
 @media screen and (max-width: 800px) {
     main section:nth-child(1) {
-        background-position: center 530px;
+        background-position: center 660px;
     }
 
     .header-box {
@@ -749,11 +761,11 @@ footer .footer .footer-info .social-media img {
 }
 
 @media screen and (max-width: 580px) {
-    main section:nth-child(1) {
+    /* main section:nth-child(1) { */
         /* background-repeat: no-repeat; */
-        background-position: 70% 300px;
-        background-size: 200% 100%;
-    }
+        /* background-position: 70% 670px; */
+        /* background-size: 200% 100%; */
+    /* } */
 
     .header-box {
         padding: 4rem 2rem;
@@ -823,6 +835,12 @@ footer .footer .footer-info .social-media img {
 
 
 @media screen and (max-width: 460px) {
+    main section:nth-child(1) {
+        /* background-repeat: no-repeat; */
+        background-position: 50% 570px !important;
+        background-size: 200% 50% !important;
+    }
+
     .header-box .section-logo {
         /* border: 1px solid red; */
         width: 100%;

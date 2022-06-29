@@ -14,3 +14,10 @@ const activeMenu = {
         }
     }
 }
+
+const sendEmail = {
+    buttonForm: document.querySelector('.send-email form .button'),
+    notSend(e) {
+        e.preventDefault()
+    }
+}

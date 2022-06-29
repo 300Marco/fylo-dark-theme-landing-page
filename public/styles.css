@@ -926,8 +926,14 @@ footer .footer .footer-info .social-media img {
     }
 
     .header-box .navigation-menu nav ul li a {
+        display: block;
         font-size: 1.8rem;
         font-weight: 700;
+    }
+
+    .header-box .navigation-menu nav ul li a:hover {
+        border: none;
+        filter: brightness(50%);
     }
 
     main section:nth-child(1) {

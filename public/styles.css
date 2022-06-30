@@ -133,7 +133,7 @@ main {
     margin-bottom: 4.0rem;
 }
 
-.introduction strong {
+.introduction h2 {
     font-size: 4.0rem;
     line-height: 5.6rem;
     margin-bottom: 3.8rem;
@@ -242,7 +242,7 @@ main section:nth-child(1) {
     padding: 14.5rem 6.5rem 0;
 }
 
-.box-productive .productive-info strong {
+.box-productive .productive-info h3 {
     font-size: 4.0rem;
     letter-spacing: 0.03rem;
     margin-bottom: 2.5rem;
@@ -384,7 +384,7 @@ main section:nth-child(1) {
     flex-direction: column;
 }
 
-.email .box-email .info-email strong {
+.email .box-email .info-email h4 {
     font-size: 3.0rem;
     letter-spacing: 0.1rem;
     margin-bottom: 2.5rem;
@@ -508,10 +508,6 @@ footer .footer .footer-info .social-media a:hover {
     background-color: var(--cyan);
 }
 
-footer .footer .footer-info .social-media a .test:hover  {
-    filter: hue-rotate(90deg);
-}
-
 footer .footer .footer-info .social-media img {
     width: 100%;
 }
@@ -621,7 +617,7 @@ footer .footer .footer-info .social-media img {
         padding: 4rem 4rem;
     }
 
-    .introduction strong,
+    .introduction h2,
     .introduction p {
         width: initial;
     }
@@ -638,7 +634,7 @@ footer .footer .footer-info .social-media img {
         padding: 8rem 6rem 0;
     }
 
-    .productive .box-productive .productive-info strong,
+    .productive .box-productive .productive-info h3,
     .productive .box-productive .productive-info p {
         padding: 0;
     }
@@ -686,7 +682,7 @@ footer .footer .footer-info .social-media img {
         padding: 0 3rem;
     }
 
-    .productive .box-productive .productive-info strong {
+    .productive .box-productive .productive-info h3 {
         font-size: 2.5rem;
     }
 
@@ -830,7 +826,7 @@ footer .footer .footer-info .social-media img {
         margin-top: 12.8rem;
     }
 
-    .introduction strong {
+    .introduction h2 {
         font-size: 2.5rem;
         line-height: 3.6rem;
     }
@@ -848,7 +844,7 @@ footer .footer .footer-info .social-media img {
         padding: 6rem 3rem 0;
     }
 
-    .productive .box-productive .productive-info strong {
+    .productive .box-productive .productive-info h3 {
         font-size: 1.6rem;
     }
 

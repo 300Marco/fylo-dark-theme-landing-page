@@ -1,10 +1,10 @@
-# Frontend Mentor - Solução de Aplicativo de Calculadora
+# Frontend Mentor - Solução para página de destino de tema escuro Fylo
 
 Esta é uma solução para [Fylo dark theme landing page](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Os desafios do Frontend Mentor nos ajudam a melhorar nossas habilidades práticas de desenvolvimento ao construir projetos realistas. 
 
 ## Índice
 
-- [Frontend Mentor - Solução de Aplicativo de Calculadora](#frontend-mentor---solução-de-aplicativo-de-calculadora)
+- [Frontend Mentor - Solução para página de destino de tema escuro Fylo](#frontend-mentor---solução-para-página-de-destino-de-tema-escuro-fylo)
   - [Índice](#índice)
   - [Visão Geral](#visão-geral)
     - [**O desafio**](#o-desafio)

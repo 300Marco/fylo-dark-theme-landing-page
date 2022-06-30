@@ -51,17 +51,17 @@ Os usuários devem ser capazes de:
 
 ### **O que eu aprendi**
 
-Neste desafio pude fixar muitos conhecimentos em CSS3 e expandir meus conhecimentos e habilidades, encontrando soluções rápidas para o desenvolvimento da página.
+Neste desafio pude fixar muitos conhecimentos em CSS3 e expandir minhas habilidades, encontrando soluções rápidas para o desenvolvimento de páginas.
 
 
 ### **Desenvolvimento continuado**
 
-Para as próximas soluções, pretendo adicionar mais JavaScript que é o que venho aprendendo e desenvolvendo ultimamente. Assim como também explorar mais técnicas CSS. Ultimamente venho estudando com mais afinco JavaScript, com isso acabei ficando sem praticar HTML e CSS por um tempo.<br>
+Para as próximas soluções, pretendo adicionar mais JavaScript que é o que venho aprendendo e me desenvolvendo ultimamente. Assim como também explorar mais técnicas CSS. Ultimamente venho estudando com mais afinco JavaScript, com isso acabei ficando sem praticar HTML e CSS por um tempo.<br>
 Mas neste desafio, pude me desenvolver e praticar essas linguagens de marcação e estilização.
 
 ### **Recursos úteis**
 
-- [Guia completo de CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Eu nunca parei para estudar Grid especificamente, então sempre uso essa documentação como cola, para aplicar nos desenvolvimentos de páginas.
+- [Guia completo de CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Eu nunca parei para estudar CSS Grid especificamente, então sempre uso essa documentação como cola, para aplicar nos desenvolvimentos de páginas.
 
 - [Unir linhas e colunas com CSS Grid](https://www.origamid.com/projetos/css-grid-layout-guia-completo/#grid-template-areas) - Esta documentação da página [origamid](https://www.origamid.com/) me salvou, quando precisei unir uma linha em mais colunas, na hora de aplicar responsividade no **footer**.
 
